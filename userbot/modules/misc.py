@@ -139,7 +139,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "Click [here](https://github.com/sahyam2019/oub-remix) to open oub-remix's GitHub page."
+        "Click [here](https://github.com/jkthe1/MiX) to open oub-remix's GitHub page."
     )
 
     
@@ -147,7 +147,7 @@ async def repo_is_here(wannasee):
 async def myrepo_is_here(wannaseeme):
     """ For .myrepo command, just returns the repo URL. """
     await wannaseeme.edit(
-        f'Click [here](https://github.com/{GIT_REPO_NAME}/tree/sql-extended/) to open {DEFAULTUSER}`s GitHub page'
+        f'Click [here](https://github.com/{GIT_REPO_NAME}/tree/jk/) to open {DEFAULTUSER}`s GitHub page'
     )
 
 @register(outgoing=True, pattern="^.raw$")
