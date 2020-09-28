@@ -136,6 +136,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
+# Spotify Bio Changer vars
+SPOTIFY_USERNAME = os.environ.get("SPOTIFY_USERNAME") or None
+SPOTIFY_PASS = os.environ.get("SPOTIFY_PASS") or None
+
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
