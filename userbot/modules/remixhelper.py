@@ -11,7 +11,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.mixhelp$")
 async def usit(e):
     await e.edit(
-        f"Here's something for {DEFAULTUSER} to use it for help_on_update on **oub-remix**:\n"
+        f"Here's something for {DEFAULTUSER} to use it for help_on_update on **MiX**:\n"
         "\n[Windows Method](https://telegra.ph/How-to-keep-repo-updated-while-keeping-your-changes-through-windows-cmd-method-04-01)"
         "\n[Termux Method](https://telegra.ph/How-to-keep-oub-remix-repo-updated-while-keeping-your-changes-through-Termux--kali-linux-06-02)"
         "\n[Kali Linux Method](https://telegra.ph/How-to-keep-OpenUserBot-repo-updated-while-keeping-your-changes-through-Termux-method-04-01)"
@@ -22,8 +22,8 @@ async def usit(e):
 @register(outgoing=True, pattern="^.remixvar$")
 async def var(m):
     await m.edit(
-        f"Here's a list of VARS for {DEFAULTUSER} on **oub-remix**:\n"
-        "\n[HEROKU VARS](https://raw.githubusercontent.com/sahyam2019/oub-remix/sql-extended/varshelper.txt)")
+        f"Here's a list of VARS for {DEFAULTUSER} on **MiX**:\n"
+        "\n[HEROKU VARS](https://raw.githubusercontent.com/jkthe1/MiX/jk/varshelper.txt)")
     
     
 CMD_HELP.update({
