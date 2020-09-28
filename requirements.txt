@@ -28,6 +28,7 @@ heroku3>=3.4.0
 httplib2>=0.18.0
 humanize 
 lxml
+spotify_token
 oauth2client
 Pillow>=6.0.0
 fontTools
@@ -87,3 +88,4 @@ pyaztro
 jikanpy
 lottie
 wand
+nekos.py
