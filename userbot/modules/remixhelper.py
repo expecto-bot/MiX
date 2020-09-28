@@ -19,7 +19,7 @@ async def usit(e):
         "\n[Gdrive Tutorial](https://telegra.ph/How-To-Setup-Google-Drive-04-03)"
         "\n[video-tutorial](https://youtu.be/us1O-AnWmHA)")
     
-@register(outgoing=True, pattern="^.remixvar$")
+@register(outgoing=True, pattern="^.mixvar$")
 async def var(m):
     await m.edit(
         f"Here's a list of VARS for {DEFAULTUSER} on **MiX**:\n"
