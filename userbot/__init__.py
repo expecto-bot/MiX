@@ -394,13 +394,13 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    "oubremix",
+                    "MiX",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/sahyam2019/oub-remix"),
+                                "https://github.com/jkthe1/MiX"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/PPE_Support")],
