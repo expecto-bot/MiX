@@ -226,11 +226,11 @@ async def amireallyalive(alive):
              f"`Telethon version`: {version.__version__} \n"
              f"`Python version🐍`: {python_version()} \n"
              f"`Bot Version🤘: Remix {BOT_VER}` \n"
-             f"==================================== \n"
+             f"=============================== \n"
              f"`User 👨‍🚀`: {DEFAULTUSER} \n"
              f"`Maintainer 🏄‍♂️`: @straw_hat \n"
              f"`Bot Uptime ⏱️`: {uptime} \n"
-             f"====================================\n")
+             f"===============================\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
