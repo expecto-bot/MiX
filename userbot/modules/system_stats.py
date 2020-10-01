@@ -222,13 +222,13 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     logo = ALIVE_LOGO
     uptime = await get_readable_time((time.time() - StartTime))
-    output = (f"`🤖 STATUS: MiX ^_^ is running ✅`\n"
-             f"`Telethon version`: {version.__version__} \n"
-             f"`Python version🐍`: {python_version()} \n"
+    output = (f"`🔥STATUS: MiX ^_^ is running ✅`\n"
+             f"`Telethon Version`: {version.__version__} \n"
+             f"`Python Version`: {python_version()} \n"
              f"`Bot Version🤘: MiX {BOT_VER}` \n"
              f"=============================== \n"
-             f"`User^_^: {DEFAULTUSER} \n"
-             f"`Maintainer 🏄‍♂️`: @straw_hat \n"
+             f"`User^_^: {DEFAULTUSER} nii- saan\n"
+             f"`Maintainer👽`:@straw_hat \n"
              f"`Bot Uptime ⏱️`: {uptime} \n"
              f"===============================\n")
     if ALIVE_LOGO:
