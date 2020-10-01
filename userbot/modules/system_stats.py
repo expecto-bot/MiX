@@ -227,7 +227,7 @@ async def amireallyalive(alive):
              f"`Python version🐍`: {python_version()} \n"
              f"`Bot Version🤘: MiX {BOT_VER}` \n"
              f"=============================== \n"
-             f"`User 👨‍🚀`: {DEFAULTUSER} \n"
+             f"`User^_^: {DEFAULTUSER} \n"
              f"`Maintainer 🏄‍♂️`: @straw_hat \n"
              f"`Bot Uptime ⏱️`: {uptime} \n"
              f"===============================\n")
